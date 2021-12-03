@@ -4,6 +4,11 @@ RITA is an open source framework for network traffic analysis sponsored by [Acti
 
 **RITA-J** is the implementation of RITA features in Jupyter Notebook. The goal is to support all types of Firewall/Proxy/DNS logs that are in CSV, TSV, or JSON format, and make it easy to analyze, hunt and detect potential C2 activity without installing additional hardware and other components to maintain.
 
+---
+The sample dataset was shared by Ali Alwashali ([@ali_alwashali](https://twitter.com/ali_alwashali)). It contains:  
+- Zeek logs from malware-traffic-analysis.net PCAP files, from 2013 to 2021
+- Suricata alerts triggered by the PCAP analysis
+
 ## Features
  - **Beaconing Detection**: Search for signs of beaconing behavior in and out of your network
  - **DNS Tunneling Detection** Search for signs of DNS based covert channels (TO DO)
