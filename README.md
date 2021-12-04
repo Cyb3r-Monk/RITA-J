@@ -17,8 +17,18 @@ The sample dataset was shared by Ali Alwashali ([@ali_alwashali](https://twitter
 
 ## Requirements
 Firewall/Proxy logs that are in CSV or JSON format. If the logs are not parsed, parsing is required before analysis.  
+
+## Working with different log formats
+There are several ways to get properly parsed and formatted logs.  
+- Send logs to a Syslog server/connector -> parse -> export it to CSV/JSON file
+- Export logs directly to a file, then convert it to CSV/JSON
+
 An example for converting Fortinet logs:  
 https://github.com/lucky-luk3/Infosec_Notebooks/blob/main/Forti_VPN_Logs_Analysis-Public.ipynb
+
+### **Fortinet CSV log Converter**
+The script below may work with all log files that use key-value pair logging.  
+https://github.com/N4SOC/fortilogcsv
 
 ## Install
 
