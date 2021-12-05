@@ -17,9 +17,16 @@ The sample dataset was shared by Ali Alwashali ([@ali_alwashali](https://twitter
 
 ## Requirements
 Firewall/Proxy logs that are in CSV or JSON format. If the logs are not parsed, parsing is required before analysis.  
+The notebook(s) support CSV files. JSON requires manuel mapping. Some helpful resources for reading and parsing JSON files:
+- https://www.w3schools.com/python/pandas/pandas_json.asp
+- https://towardsdatascience.com/how-to-parse-json-data-with-python-pandas-f84fbd0b1025
+- https://towardsdatascience.com/how-to-convert-json-into-a-pandas-dataframe-100b2ae1e0d8
 
-## Working with different log formats
-There are several ways to get properly parsed and formatted logs.  
+## Acquiring Logs and  Working with different log formats
+There are several ways to acquire logs.  
+- Reading from SIEM / DB / API
+  - https://infosecjupyterthon.com/workshops/day1/day1-2-Acquiring-data.html
+- Export logs from SIEM in CSV/JSON
 - Send logs to a Syslog server/connector -> parse -> export it to CSV/JSON file
 - Export logs directly to a file, then convert it to CSV/JSON
 
