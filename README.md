@@ -21,6 +21,7 @@ The notebook(s) support CSV files. JSON requires manuel mapping. Some helpful re
 - https://www.w3schools.com/python/pandas/pandas_json.asp
 - https://towardsdatascience.com/how-to-parse-json-data-with-python-pandas-f84fbd0b1025
 - https://towardsdatascience.com/how-to-convert-json-into-a-pandas-dataframe-100b2ae1e0d8
+- https://www.scaler.com/topics/how-to-open-json-file-in-python/
 
 ## Acquiring Logs and  Working with different log formats
 There are several ways to acquire logs.  
